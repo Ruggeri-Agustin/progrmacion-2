@@ -1,0 +1,16 @@
+.card{
+    background-color: rgb(26, 26, 26);
+}
+.texto{
+    color: rgb(214, 214, 214);
+}
+.btn{
+    background-color: rgb(139, 0, 0);
+    color: rgb(238, 76, 76);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(139, 0, 0);
+}
