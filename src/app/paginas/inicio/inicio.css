@@ -13,4 +13,12 @@ a{
 }
 h1{
     color: rgb(139, 0, 0);
+    font-family: sangre;
+}
+.titulo{
+    font-family: sangre;
+}
+@font-face{
+    font-family: sangre;
+    src:  url("Nosifer/Nosifer-Regular.ttf");
 }

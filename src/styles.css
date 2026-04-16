@@ -2,5 +2,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 body{
-    background-color: rgb(10, 10, 10)
+    background-color: rgb(10, 10, 10) !important;
 }

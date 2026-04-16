@@ -1,3 +1,12 @@
 .navegador{
-	background-color: rgb(139, 0, 0) !important;
+	background-color: rgb(70, 3, 3) !important;
+}
+.nav-link{
+	font-family: fuentesita;
+	font-size: 36px;
+	
+}
+@font-face{
+	font-family: fuentesita;
+	src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
 }
