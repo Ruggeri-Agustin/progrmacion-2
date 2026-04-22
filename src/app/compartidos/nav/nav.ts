@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { Productos } from '../../paginas/productos/productos';
-import { Ofertas } from '../../paginas/ofertas/ofertas';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './nav.html',
   styleUrl: './nav.css',
 })

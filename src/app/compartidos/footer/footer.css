@@ -1,0 +1,19 @@
+.card{
+    margin: 0px;
+    border-color: rgb(139,0,0);
+}
+.card-header{
+    background-color: rgb(139,0,0);
+}
+.card-body{
+    background-color: rgb(139,0,0);
+}
+p{
+   font-family: pixel; 
+   font-size: 30px;
+   color: rgb(214, 214, 214);
+}
+@font-face{
+	font-family: pixel;
+	src: url("VT323/VT323-Regular.ttf");
+}

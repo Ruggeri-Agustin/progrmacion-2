@@ -20,7 +20,7 @@ export const routes: Routes = [
     //{path: "nav", component: Nav},
     {path: "contacto", component: Contacto},
     {path: "inicio", component: Inicio},
-    {path: "ofetas", component: Ofertas},
+    {path: "ofertas", component: Ofertas},
     {path: "productos", component: Productos},
     {path: '**', redirectTo: 'inicio' }
 ];
