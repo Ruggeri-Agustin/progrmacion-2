@@ -1,26 +1,66 @@
-.card{
+.card {
     background-color: rgb(26, 26, 26);
 }
-.texto{
-    color: rgb(214, 214, 214);
+
+.agregar,
+.cerrar {
+    font-family: sangre;
 }
-.btn{
+
+.texto {
+    color: rgb(214, 214, 214);
+    font-family: sangre;
+}
+
+.btn {
     background-color: rgb(139, 0, 0);
     color: rgb(238, 76, 76);
 }
-a{
+
+a {
     text-decoration: none;
 }
-h2{
-    color: rgb(139, 0, 0);
-    font-family: sangre;
+
+p {
+    color: rgb(214, 214, 214);
+    font-family: pixel;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(214, 214, 214);
+    font-family: estatica;
     display: flex;
     justify-content: center;
 }
-.titulo{
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(139, 0, 0)
+}
+
+.info {
     font-family: sangre;
 }
-@font-face{
+
+.modal-title {
     font-family: sangre;
-    src:  url("Nosifer/Nosifer-Regular.ttf");
+    color: rgb(139, 0, 0);
+}
+
+@font-face {
+    font-family: estatica;
+    src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
+}
+
+@font-face {
+    font-family: sangre;
+    src: url(Nosifer/Nosifer-Regular.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(../../compartidos/footer/VT323/VT323-Regular.ttf);
 }
