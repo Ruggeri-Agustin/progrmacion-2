@@ -3,8 +3,16 @@
 }
 .nav-link{
 	font-family: fuentesita;
-	font-size: 26px;
+	font-size: 16px;
 	
+}
+.registro{
+	background-color: rgb(70, 3, 3);
+	color: rgb(214, 214, 214);
+	font-family: fuentesita;
+}
+.sesion{
+color:rgb(214, 214, 214);
 }
 @font-face{
 	font-family: fuentesita;

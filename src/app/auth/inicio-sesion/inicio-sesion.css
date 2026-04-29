@@ -1,0 +1,62 @@
+/* CONTENEDOR (no afecta navbar) */
+.contenedor-form {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD REAL */
+.card-custom {
+  background-color: rgb(20, 20, 20);
+  border: 2px solid rgb(139, 0, 0);
+  border-radius: 12px;
+  width: 320px;
+
+  /* Esto le da el look de "card" */
+  box-shadow: 0 0 20px rgba(139, 0, 0, 0.4);
+  overflow: hidden;
+  color: white;
+}
+
+/* HEADER */
+.card-header {
+  padding: 15px;
+  border-bottom: 1px solid rgb(139, 0, 0);
+  text-align: center;
+  font-family: fuentesita;
+}
+
+/* BODY */
+.card-body {
+  padding: 20px;
+}
+
+/* INPUTS */
+.card-body input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(139, 0, 0);
+  border-radius: 6px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+/* BOTÓN */
+.card-body button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: rgb(139, 0, 0);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-body button:hover {
+  background-color: rgb(180, 0, 0);
+  box-shadow: 0 0 10px rgb(139, 0, 0);
+}
