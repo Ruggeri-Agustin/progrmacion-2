@@ -1,7 +1,16 @@
 .card {
     background-color: rgb(26, 26, 26);
 }
-
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.modal-header .btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 .agregar,
 .cerrar {
     font-family: sangre;
@@ -40,12 +49,11 @@ h2 {
     background-color: rgb(20, 20, 20);
     border: 1px solid rgb(139, 0, 0)
 }
-
 .info {
     font-family: sangre;
 }
 
-.modal-title {
+h1 {
     font-family: sangre;
     color: rgb(139, 0, 0);
 }
