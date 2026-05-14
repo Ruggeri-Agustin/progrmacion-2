@@ -3,7 +3,8 @@ export interface Producto {
   img: string;
   nombre: string;
   desarrolladora: string;
-  precio: number;
+  link?: string;
+  precio: number|string;
   desc: string;
   cr1: string;
   cr2: string;

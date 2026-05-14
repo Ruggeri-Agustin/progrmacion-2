@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    @for (p of productos; track p.id) {
+    @for (p of puppet; track p.id) {
       @if (p.disponibilidad) {
         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
           <div class="card">
@@ -44,7 +44,8 @@
                         ></button>
                       </div>
                       <p class="mt-2">
-                        Desarrollado por: <a href="{{ p.link }}">{{ p.desarrolladora }}</a>
+                        Desarrollado por:
+                        <a href="{{ p.link }}">{{ p.desarrolladora }}</a>
                       </p>
                     </div>
                     <div class="modal-body">
@@ -109,7 +110,7 @@
                       <p>{{ p.desc }}</p>
                       <button type="button" class="btn agregar">Agregar al Carrito</button>
                       <button type="button" class="btn cerrar" data-bs-dismiss="modal">
-                        Cerrar
+                        volver
                       </button>
                     </div>
                   </div>

@@ -9,6 +9,12 @@ import { Contacto } from './paginas/contacto/contacto';
 import { Inicio } from './paginas/inicio/inicio';
 import { Ofertas } from './paginas/ofertas/ofertas';
 import { Productos } from './paginas/productos/productos';
+import { PuppetCombo } from './paginas/productos/puppet-combo/puppet-combo';
+import { ChillasArt } from './paginas/productos/chillas-art/chillas-art';
+import { TortureStar } from './paginas/productos/torture-star/torture-star';
+import { SixOneSixGames } from './paginas/productos/six-one-six-games/six-one-six-games';
+import { EmikaGames } from './paginas/productos/emika-games/emika-games';
+import { Yames } from './paginas/productos/yames/yames';
 
 export const routes: Routes = [
     {path: '', redirectTo: 'inicio', pathMatch: 'full' },
@@ -22,5 +28,11 @@ export const routes: Routes = [
     {path: "inicio", component: Inicio},
     {path: "ofertas", component: Ofertas},
     {path: "productos", component: Productos},
+    {path: "puppetCombo", component: PuppetCombo},
+    {path: "chilla", component: ChillasArt},
+    {path: "tortureStar",component:TortureStar},
+    {path: "616-games",component:SixOneSixGames},
+    {path: "emika",component:EmikaGames},
+    {path: "yames",component:Yames},
     {path: '**', redirectTo: 'inicio' }
 ];
