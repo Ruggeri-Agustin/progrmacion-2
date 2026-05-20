@@ -1,1 +1,44 @@
-<p>carrito works!</p>
+<h2 class="titulo-carrito">Carrito de Compras</h2>
+<section class="carrito-container">
+  <table class="tabla-carrito">
+    <thead>
+      <tr>
+        <th>Juego</th>
+        <th>Nombre</th>
+        <th>Desarrollador</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- Producto 1 -->
+      <tr>
+        <td>
+          <img src="" alt="" class="img-juego" />
+        </td>
+
+        <td class="nombre-juego"></td>
+        <td class="desarrollador"></td>
+        <td>
+          <div class="cantidad-container">
+            <button class="btn-cantidad">-</button>
+
+            <span class="cantidad"></span>
+
+            <button class="btn-cantidad">+</button>
+          </div>
+        </td>
+        <td class="precio">$</td>
+        <td>
+          <button class="btn eliminar">eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="botones">
+    <button class="btn eliminar">Vaciar Carrito</button>
+    <button class="btn comprar">Comprar</button>
+  </div>
+</section>

@@ -79,3 +79,9 @@ h1 {
     font-family: pixel;
     src: url(../../../compartidos/footer/VT323/VT323-Regular.ttf);
 }
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
