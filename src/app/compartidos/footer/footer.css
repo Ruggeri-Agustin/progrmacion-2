@@ -10,6 +10,7 @@ p{
    font-size: 20px;
    color: rgb(214, 214, 214);
 }
+
 @font-face{
 	font-family: pixel;
 	src: url("VT323/VT323-Regular.ttf");

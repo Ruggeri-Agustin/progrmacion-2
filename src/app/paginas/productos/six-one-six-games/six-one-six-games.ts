@@ -10,12 +10,12 @@ import { CarritoCompras } from '../../../servicios/carrito';
 export class SixOneSixGames {
   six: Producto[] = [
     {
-      id: 1,
+      id: 101,
       img: '/assets/killer.jpg',
       nombre: 'I am a Serial Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
-      precio: 101,
+      precio: 1,
       desc: 'Martin decidió unirse a una secta llamada "Los Iluminados", que busca dar vida a un ser misterioso para eliminar todo el mal del mundo. ¿Hasta dónde estás dispuesto a llegar para lograr tus metas?',
       cr1: 'https://img.itch.zone/aW1nLzEyNzcyODkyLnBuZw==/original/z2yhXR.png',
       cr2: 'https://img.itch.zone/aW1hZ2UvMjE1NDAxNS8xMjc2Mzk1OC5wbmc=/347x500/%2BqoXM7.png',
@@ -67,7 +67,7 @@ export class SixOneSixGames {
     },
     {
       id: 105,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob2j2.jpg',
+      img: 'https://img.itch.zone/aW1nLzIwOTcwNzQwLnBuZw==/315x250%23c/5GgggS.png',
       nombre: 'Tales Beyond The Bomb: White Silence',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -81,7 +81,7 @@ export class SixOneSixGames {
     },
     {
       id: 106,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co9jt5.webp',
+      img: 'https://img.itch.zone/aW1nLzIwMjM3NzU4LnBuZw==/315x250%23c/8KBtvH.png',
       nombre: 'Poop Killer: Flush or Die',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -95,7 +95,7 @@ export class SixOneSixGames {
     },
     {
       id: 107,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob2j1.jpg',
+      img: 'https://img.itch.zone/aW1nLzE5NDk3MjI0LnBuZw==/315x250%23c/kT5z%2Fa.png',
       nombre: 'Tales Beyond The Bomb: The Last Vigil',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -109,7 +109,7 @@ export class SixOneSixGames {
     },
     {
       id: 108,
-      img: 'Tales Beyond The Bomb: Pineville Night Stalker',
+      img: 'https://img.itch.zone/aW1nLzE4NjYyODM3LnBuZw==/315x250%23c/zMdejl.png',
       nombre: 'Tales Beyond The Bomb: Pineville Night Stalker',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -123,7 +123,7 @@ export class SixOneSixGames {
     },
     {
       id: 109,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE3NzQzMDM2LnBuZw==/315x250%23c/SgBU6A.png',
       nombre: '1873',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -137,7 +137,7 @@ export class SixOneSixGames {
     },
     {
       id: 110,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE3MjcxNDAyLnBuZw==/315x250%23c/eA3mdn.png',
       nombre: 'Gears 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -151,7 +151,7 @@ export class SixOneSixGames {
     },
     {
       id: 111,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE3MDk4MzY2LnBuZw==/315x250%23c/TS4O3q.png',
       nombre: 'Fart Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -165,7 +165,7 @@ export class SixOneSixGames {
     },
     {
       id: 112,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE2ODk5MjQwLnBuZw==/315x250%23c/Rzfv4b.png',
       nombre: 'Halloween Revenge',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -179,7 +179,7 @@ export class SixOneSixGames {
     },
     {
       id: 113,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE2NTU1NzkwLnBuZw==/315x250%23c/wpfVmU.png',
       nombre: 'Dad',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -193,7 +193,7 @@ export class SixOneSixGames {
     },
     {
       id: 114,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE2MjczMjQzLnBuZw==/315x250%23c/YFNaZ7.png',
       nombre: 'We Are Not Alone: Contact',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -207,7 +207,7 @@ export class SixOneSixGames {
     },
     {
       id: 115,
-      img: 'https://external-preview.redd.it/trash-night-gameplay-616-games-v0-77HLPzUNpgh6eVbUWJ8uOqdm45ffr-LdNFltAVNO1b4.jpg?format=pjpg&auto=webp&s=e34308f9b3f985c2b07dd06ec025bd7335abc1e6',
+      img: 'https://img.itch.zone/aW1nLzE1ODI1NDQyLnBuZw==/315x250%23c/rxtrR6.png',
       nombre: 'Trash Night',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -221,7 +221,7 @@ export class SixOneSixGames {
     },
     {
       id: 116,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE1MjE4OTQ4LnBuZw==/315x250%23c/MduX65.png',
       nombre: 'Meat',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -235,7 +235,7 @@ export class SixOneSixGames {
     },
     {
       id: 117,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE0OTI3NzI1LnBuZw==/315x250%23c/KyBbzj.png',
       nombre: 'Community',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -249,7 +249,7 @@ export class SixOneSixGames {
     },
     {
       id: 118,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzE0NDM2MTkxLnBuZw==/315x250%23c/lsd5pL.png',
       nombre: 'The Light Went Out',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -263,7 +263,7 @@ export class SixOneSixGames {
     },
     {
       id: 119,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co7kie.webp',
+      img: 'https://img.itch.zone/aW1nLzkwMjkzMjUucG5n/315x250%23c/hharzV.png',
       nombre: 'Poop Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -277,7 +277,7 @@ export class SixOneSixGames {
     },
     {
       id: 120,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co857k.webp',
+      img: 'https://img.itch.zone/aW1nLzk2Mzc1MDMucG5n/315x250%23c/J%2BN%2F33.png',
       nombre: 'Poop Killer 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -291,7 +291,7 @@ export class SixOneSixGames {
     },
     {
       id: 121,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co857k.webp',
+      img: 'https://img.itch.zone/aW1nLzk2Mzc1MTgucG5n/315x250%23c/uU4ZCH.png',
       nombre: 'Poop Killer 3',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -305,7 +305,7 @@ export class SixOneSixGames {
     },
     {
       id: 122,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5xo7.webp',
+      img: 'https://img.itch.zone/aW1nLzEwMzAzNTcyLnBuZw==/315x250%23c/OxONxG.png',
       nombre: 'Poop Killer 5',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -319,7 +319,7 @@ export class SixOneSixGames {
     },
     {
       id: 123,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5zm5.webp',
+      img: 'https://img.itch.zone/aW1nLzEwOTk1ODg0LnBuZw==/315x250%23c/pU6BDE.png',
       nombre: 'Poop Killer 6',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -333,7 +333,7 @@ export class SixOneSixGames {
     },
     {
       id: 124,
-      img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6l0d.webp',
+      img: 'https://img.itch.zone/aW1nLzEyMzQxOTQ3LnBuZw==/315x250%23c/rAOV%2Ft.png',
       nombre: 'Poop Killer 7',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -347,7 +347,7 @@ export class SixOneSixGames {
     },
     {
       id: 125,
-      img: 'https://pbs.twimg.com/media/GBfRmNMXIAAeuQz.png',
+      img: 'https://img.itch.zone/aW1nLzE0MzUxNzc2LnBuZw==/315x250%23c/51NtXP.png',
       nombre: 'Poop Killer 8',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -361,7 +361,7 @@ export class SixOneSixGames {
     },
     {
       id: 126,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEzODgxMTQ4LnBuZw==/315x250%23c/T59R7A.png',
       nombre: 'Hello, I Came to Kill You',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -375,7 +375,7 @@ export class SixOneSixGames {
     },
     {
       id: 127,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEzNjM4NDkwLnBuZw==/315x250%23c/pghT4n.png',
       nombre: 'Deer',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -389,7 +389,7 @@ export class SixOneSixGames {
     },
     {
       id: 128,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyNTYzNDM5LmdpZg==/315x250%23c/v11sZx.gif',
       nombre: 'Hill Maniac',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -403,7 +403,7 @@ export class SixOneSixGames {
     },
     {
       id: 129,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyMDQzMjM2LnBuZw==/315x250%23c/2OVwSa.png',
       nombre: 'Bloody Woman',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -417,7 +417,7 @@ export class SixOneSixGames {
     },
     {
       id: 130,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwMzE1ODAxLnBuZw==/315x250%23c/vpif3k.png',
       nombre: 'Poop Killer Origins',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -431,7 +431,7 @@ export class SixOneSixGames {
     },
     {
       id: 131,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNTA0OTYucG5n/315x250%23c/N1s4lJ.png',
       nombre: 'The Elevator',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -445,7 +445,7 @@ export class SixOneSixGames {
     },
     {
       id: 132,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNDkzNzIuZ2lm/315x250%23c/4cAHCS.gif',
       nombre: 'Mold',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -459,7 +459,7 @@ export class SixOneSixGames {
     },
     {
       id: 133,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzExNDIyOTA5LnBuZw==/315x250%23c/Fh7Bfi.png',
       nombre: 'Mold 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -473,7 +473,7 @@ export class SixOneSixGames {
     },
     {
       id: 134,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzg3NzcyNTgucG5n/315x250%23c/RiyyYX.png',
       nombre: 'Truth Loop',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -487,7 +487,7 @@ export class SixOneSixGames {
     },
     {
       id: 135,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyODYxODExLnBuZw==/315x250%23c/QLcUCk.png',
       nombre: 'Truth Loop 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -501,7 +501,7 @@ export class SixOneSixGames {
     },
     {
       id: 136,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzk1OTM0NDQucG5n/315x250%23c/UJnE3o.png',
       nombre: 'After Midnight',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -515,7 +515,7 @@ export class SixOneSixGames {
     },
     {
       id: 137,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwNTQ3MjY0LnBuZw==/315x250%23c/M2Df0p.png',
       nombre: 'After Midnight 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -529,7 +529,7 @@ export class SixOneSixGames {
     },
     {
       id: 138,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzg4MzE2NzgucG5n/315x250%23c/5qxKMf.png',
       nombre: 'The House of Rats',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -543,7 +543,7 @@ export class SixOneSixGames {
     },
     {
       id: 139,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzExMzI1Mzg3LnBuZw==/315x250%23c/AEZ3rK.png',
       nombre: 'REC',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -557,8 +557,8 @@ export class SixOneSixGames {
     },
     {
       id: 140,
-      img: '',
-      nombre: 'S.M.S.',
+      img: 'https://img.itch.zone/aW1nLzExMjU4MTE1LnBuZw==/315x250%23c/QQv3zr.png',
+      nombre: 'S.M.S',
       desarrolladora: '616 Games',
       link: '/616-games',
       precio: 0,
@@ -571,7 +571,7 @@ export class SixOneSixGames {
     },
     {
       id: 141,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwNDQ1MTg1LnBuZw==/315x250%23c/JV3GAx.png',
       nombre: 'Last Heir',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -585,7 +585,7 @@ export class SixOneSixGames {
     },
     {
       id: 142,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNTA0MzUucG5n/315x250%23c/ikzKl0.png',
       nombre: 'Blood Burger',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -599,7 +599,7 @@ export class SixOneSixGames {
     },
     {
       id: 143,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyNzc2MTQwLnBuZw==/315x250%23c/e37ovm.png',
       nombre: 'Cycle',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -613,7 +613,7 @@ export class SixOneSixGames {
     },
     {
       id: 144,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwMDM2MTgwLnBuZw==/315x250%23c/AMM3Xl.png',
       nombre: 'Chicken Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -627,7 +627,7 @@ export class SixOneSixGames {
     },
     {
       id: 145,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzk5OTc5MDkucG5n/315x250%23c/RQh2ln.png',
       nombre: 'Xenomoon',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -641,7 +641,7 @@ export class SixOneSixGames {
     },
     {
       id: 146,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEzMDI2NTAzLnBuZw==/315x250%23c/78izg9.png',
       nombre: 'Gears',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -655,7 +655,7 @@ export class SixOneSixGames {
     },
     {
       id: 147,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzk3NTM0MjMucG5n/315x250%23c/eb2f0J.png',
       nombre: 'R.I.P.',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -669,7 +669,7 @@ export class SixOneSixGames {
     },
     {
       id: 148,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyMzU5MDk1LnBuZw==/315x250%23c/wzoNmi.png',
       nombre: 'Night of Carnage',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -683,7 +683,7 @@ export class SixOneSixGames {
     },
     {
       id: 149,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwMjQ0NjE4LnBuZw==/315x250%23c/0n6amv.png',
       nombre: 'Endless Night',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -697,7 +697,7 @@ export class SixOneSixGames {
     },
     {
       id: 150,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzExODM2NzAzLnBuZw==/315x250%23c/cFvfh0.png',
       nombre: 'Endless Night 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -711,7 +711,7 @@ export class SixOneSixGames {
     },
     {
       id: 151,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwMTUwMzkyLnBuZw==/315x250%23c/cSqrKA.png',
       nombre: 'Dick Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -725,7 +725,7 @@ export class SixOneSixGames {
     },
     {
       id: 152,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkzMDYxOTMucG5n/315x250%23c/YoRC%2Fd.png',
       nombre: 'We Are Not Alone',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -739,7 +739,7 @@ export class SixOneSixGames {
     },
     {
       id: 153,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkyNTk4NTUucG5n/315x250%23c/yJ0gSK.png',
       nombre: 'Thursday The 12th',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -753,7 +753,7 @@ export class SixOneSixGames {
     },
     {
       id: 154,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzk2ODkwNTEucG5n/315x250%23c/WAp4jI.png',
       nombre: 'Legend Hunters',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -767,7 +767,7 @@ export class SixOneSixGames {
     },
     {
       id: 155,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzc5ODkxNDAucG5n/315x250%23c/PhUXFj.png',
       nombre: 'Midnight Tales Vol. 1',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -781,7 +781,7 @@ export class SixOneSixGames {
     },
     {
       id: 156,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzg0NDYxODcuZ2lm/315x250%23c/HC%2FH6v.gif',
       nombre: 'Midnight Tales Vol. 2',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -795,7 +795,7 @@ export class SixOneSixGames {
     },
     {
       id: 157,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEwODQ4NDI0LnBuZw==/315x250%23c/LyaSMZ.png',
       nombre: 'Midnight Tales Vol. 3',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -809,7 +809,7 @@ export class SixOneSixGames {
     },
     {
       id: 158,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNTAyMzkucG5n/315x250%23c/k95kWB.png',
       nombre: 'Night Revenge',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -823,7 +823,7 @@ export class SixOneSixGames {
     },
     {
       id: 159,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkwNjA4MzMucG5n/315x250%23c/5HWmmU.png',
       nombre: 'Red Valley',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -837,7 +837,7 @@ export class SixOneSixGames {
     },
     {
       id: 160,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzExNjk4NjM0LnBuZw==/315x250%23c/Ucldjt.png',
       nombre: 'Evil Is Back',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -851,7 +851,7 @@ export class SixOneSixGames {
     },
     {
       id: 161,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNTA3MDkucG5n/315x250%23c/VXjogr.png',
       nombre: 'The Clown’s Fun',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -865,7 +865,7 @@ export class SixOneSixGames {
     },
     {
       id: 162,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzg5NjQ4NDQuZ2lm/315x250%23c/ksH7cS.gif',
       nombre: 'The Island Mystery',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -879,7 +879,7 @@ export class SixOneSixGames {
     },
     {
       id: 163,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzk3MDMzMjYuanBn/315x250%23c/HH16dQ.jpg',
       nombre: 'Footage 1985',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -893,7 +893,7 @@ export class SixOneSixGames {
     },
     {
       id: 164,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzEyMzQ2OTk1LnBuZw==/315x250%23c/qhPg31.png',
       nombre: 'They Are Not Dead',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -907,7 +907,7 @@ export class SixOneSixGames {
     },
     {
       id: 165,
-      img: '',
+      img: 'https://img.itch.zone/aW1nLzkxNTkyNTMucG5n/315x250%23c/9dAnZL.png',
       nombre: 'Panic on Ice',
       desarrolladora: '616 Games',
       link: '/616-games',
@@ -918,35 +918,7 @@ export class SixOneSixGames {
       cr3: '',
       cr4: '',
       disponibilidad: true,
-    },
-    {
-      id: 166,
-      img: '',
-      nombre: 'Stab',
-      desarrolladora: '616 Games',
-      link: '/616-games',
-      precio: 0,
-      desc: '',
-      cr1: '',
-      cr2: '',
-      cr3: '',
-      cr4: '',
-      disponibilidad: true,
-    },
-    {
-      id: 167,
-      img: '',
-      nombre: 'Black Butterfly',
-      desarrolladora: '616 Games',
-      link: '/616-games',
-      precio: 0,
-      desc: '',
-      cr1: '',
-      cr2: '',
-      cr3: '',
-      cr4: '',
-      disponibilidad: true,
-    },
+    }
   ];
  constructor(private carritoService: CarritoCompras) { }
 
