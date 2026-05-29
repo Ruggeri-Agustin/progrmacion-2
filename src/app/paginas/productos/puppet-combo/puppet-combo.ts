@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../../models/producto';
+import { CarritoCompras } from '../../../servicios/carrito';
 @Component({
   selector: 'app-puppet-combo',
   imports: [],
@@ -9,7 +10,7 @@ import { Producto } from '../../../models/producto';
 export class PuppetCombo {
   puppet: Producto[] = [
     {
-      id: 1,
+      id: 2001,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/9/9a/Pdm_vhs.png/revision/latest/scale-to-width-down/268?cb=20211007184732',
       nombre: 'Power Drill Massacre',
       desarrolladora: 'Puppet Combo',
@@ -23,7 +24,7 @@ export class PuppetCombo {
       disponibilidad: false,
     },
     {
-      id: 2,
+      id: 2002,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/1/12/Babysitter_bloodbath_vhs.png/revision/latest/scale-to-width-down/1000?cb=20210607100306',
       nombre: 'Babysitter Bloodbath',
       desarrolladora: 'Puppet Combo',
@@ -37,7 +38,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 3,
+      id: 2003,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/9/9a/A_ZqrRvCYAANbk2.jpg/revision/latest/scale-to-width-down/268?cb=20181127193158',
       nombre: 'Minotaur',
       desarrolladora: 'Puppet Combo',
@@ -51,7 +52,7 @@ export class PuppetCombo {
       disponibilidad: false,
     },
     {
-      id: 4,
+      id: 2004,
       img: '../../assets/mutilator.jpeg',
       nombre: 'Meat Cleaver Mutilator',
       desarrolladora: 'Puppet Combo',
@@ -65,7 +66,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 5,
+      id: 2005,
       img: '../../assets/texas.jpeg',
       nombre: 'Texas Butcher',
       desarrolladora: 'Puppet Combo',
@@ -79,7 +80,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 6,
+      id: 2006,
       img: '../../assets/pitch.jpeg',
       nombre: 'Pitchfork Massacre',
       desarrolladora: 'Puppet Combo',
@@ -93,7 +94,7 @@ export class PuppetCombo {
       disponibilidad: false,
     },
     {
-      id: 7,
+      id: 2007,
       img: 'https://m.media-amazon.com/images/M/MV5BOGFjY2YzMTEtMGY2My00MjAxLTkwYjEtZWMzMzdiMTYwODk4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
       nombre: 'Nightripper',
       desarrolladora: 'Puppet Combo',
@@ -107,7 +108,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 8,
+      id: 2008,
       img: '../../assets/saw.jpeg',
       nombre: 'Buzz-Saw Blood House',
       desarrolladora: 'Puppet Combo',
@@ -121,7 +122,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 9,
+      id: 2009,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/d/df/Pobts_vhs.png/revision/latest?cb=20210722125421',
       nombre: 'Planet of Bloodthirsty Santa',
       desarrolladora: 'Puppet Combo',
@@ -135,7 +136,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 10,
+      id: 2010,
       img: 'http://localhost:4200/assets/night.jpg',
       nombre: 'Night Shift',
       desarrolladora: 'Puppet Combo',
@@ -149,7 +150,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 11,
+      id: 2011,
       img: '../../assets/spiders.jpeg',
       nombre: 'Spiders',
       desarrolladora: 'Puppet Combo',
@@ -163,7 +164,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 13,
+      id: 2012,
       img: 'https://m.media-amazon.com/images/M/MV5BMzEwOTRkZjctMTg2Zi00Y2E0LTk1MzQtMWY0ZjI5YWViMjdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
       nombre: 'Feed Me Billy',
       desarrolladora: 'Puppet Combo',
@@ -177,7 +178,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 14,
+      id: 2013,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co8cqb.webp',
       nombre: 'Blood Maniac',
       desarrolladora: 'Puppet Combo',
@@ -191,7 +192,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 15,
+      id: 2014,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/b/bc/Tgs_vhs_smaller.png/revision/latest/scale-to-width-down/267?cb=20221028021902',
       nombre: 'The Glass Staircase',
       desarrolladora: 'Puppet Combo',
@@ -205,7 +206,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 16,
+      id: 2015,
       img: '../../assets/incident.jpeg',
       nombre: 'The Riverside Incident',
       desarrolladora: 'Puppet Combo',
@@ -219,7 +220,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 17,
+      id: 2016,
       img: '../../assets/day.jpeg',
       nombre: 'Day 7',
       desarrolladora: 'Puppet Combo',
@@ -233,7 +234,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 18,
+      id: 2017,
       img: '../../assets/clowns.jpeg',
       nombre: 'Evil Clowns',
       desarrolladora: 'Puppet Combo',
@@ -247,7 +248,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 19,
+      id: 2018,
       img: '../../assets/scary.jpeg',
       nombre: 'Scary Tales Vol. 1',
       desarrolladora: 'Puppet Combo',
@@ -261,7 +262,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 20,
+      id: 2019,
       img: '../../assets/samhaim.jpeg',
       nombre: 'Samhain',
       desarrolladora: 'Puppet Combo',
@@ -275,7 +276,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 21,
+      id: 2020,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co60qy.jpg',
       nombre: 'Night Watch',
       desarrolladora: 'Puppet Combo',
@@ -289,7 +290,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 22,
+      id: 2021,
       img: 'https://store-images.s-microsoft.com/image/apps.23865.13794259264775165.981f5991-3592-472c-af32-598bd0cf8390.57f0b1a1-61a8-4d04-9eb2-db1292bed1d0',
       nombre: 'Nun Massacre',
       desarrolladora: 'Puppet Combo',
@@ -303,7 +304,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 23,
+      id: 2022,
       img: 'https://store-images.s-microsoft.com/image/apps.59731.14482473650315545.f0ec722e-0fde-4fe1-8c49-69ac9f8f8b7d.07384c08-2cde-405d-a9d9-1fbc0f9a9d80',
       nombre: 'Christmas Massacre',
       desarrolladora: 'Puppet Combo',
@@ -317,7 +318,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 24,
+      id: 2023,
       img: 'https://store-images.s-microsoft.com/image/apps.57418.14163413953167753.5fb76bc9-9bdf-4576-9079-0e674a1d536c.d5b61dc7-c7b4-4e39-8231-f6154f78d590',
       nombre: 'Murder House',
       desarrolladora: 'Puppet Combo',
@@ -331,7 +332,7 @@ export class PuppetCombo {
       disponibilidad: true,
     },
     {
-      id: 25,
+      id: 2024,
       img: 'https://image.api.playstation.com/vulcan/ap/rnd/202304/2618/42e39588e95f85e70c76a50a6830d2476e0f481136877cc2.png',
       nombre: 'Stay Out of the House',
       desarrolladora: 'Puppet Combo',
@@ -344,5 +345,11 @@ export class PuppetCombo {
       cr4: 'https://img.itch.zone/aW1hZ2UvMzM3MzMyOC8yMDE0MDI5NS5wbmc=/347x500/GYQZ3K.png',
       disponibilidad: true,
     },
-  ];
+  ]
+  constructor(private carritoService: CarritoCompras) { }
+  
+    agregarAlCarrito(producto: Producto): void {
+      this.carritoService.agregar(producto);
+      alert(`${producto.nombre} agregado al carrito`);
+    }
 }

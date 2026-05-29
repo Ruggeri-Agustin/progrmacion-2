@@ -14,32 +14,31 @@
     </thead>
 
     <tbody>
-      <!-- Producto 1 -->
-      <tr>
-        <td>
-          <img src="" alt="" class="img-juego" />
-        </td>
-
-        <td class="nombre-juego"></td>
-        <td class="desarrollador"></td>
-        <td>
-          <div class="cantidad-container">
-            <button class="btn-cantidad">-</button>
-
-            <span class="cantidad"></span>
-
-            <button class="btn-cantidad">+</button>
-          </div>
-        </td>
-        <td class="precio">$</td>
-        <td>
-          <button class="btn eliminar">eliminar</button>
-        </td>
-      </tr>
+      @for (item of items; track item.id) {
+        <tr>
+          <td>
+            <img [src]="item.img" [alt]="item.nombre" class="img-juego" />
+          </td>
+          <td class="nombre-juego">{{item.nombre}}</td>
+          <td class="desarrollador">{{item.desarrolladora}}</td>
+          <td>
+            <div class="cantidad-container">
+              <button class="btn-cantidad" (click)="disminuir(item.id)">-</button>
+              <span class="cantidad">{{item.cantidad}}</span>
+              <button class="btn-cantidad" (click)="aumentar(item.id)">+</button>
+            </div>
+          </td>
+          <td class="precio">${{subtotal(item)}}</td>
+          <td>
+            <button class="btn eliminar" (click)="eliminar(item.id)">eliminar</button>
+          </td>
+        </tr>
+      }
     </tbody>
   </table>
+
   <div class="botones">
-    <button class="btn eliminar">Vaciar Carrito</button>
-    <button class="btn comprar">Comprar</button>
+    <button class="btn eliminar" (click)="vaciarCarrito()">Vaciar Carrito</button>
+    <button class="btn comprar" (click)="comprar()">Comprar</button>
   </div>
 </section>

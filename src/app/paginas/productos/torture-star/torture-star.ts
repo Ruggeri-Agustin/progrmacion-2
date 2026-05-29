@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../../models/producto';
+import { CarritoCompras } from '../../../servicios/carrito';
 @Component({
   selector: 'app-torture-star',
   imports: [],
@@ -9,7 +10,7 @@ import { Producto } from '../../../models/producto';
 export class TortureStar {
   torture: Producto[] = [
       {
-      id: 1,
+      id: 4001,
       img: 'https://store-images.s-microsoft.com/image/apps.673.14599123363525861.62176224-5ddf-418c-a312-67f7bacf9abf.c39649ab-d502-4caa-a2da-c9557785e22a',
       nombre: 'Bloodwash',
       desarrolladora: 'Torture Star Video',
@@ -23,7 +24,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 2,
+      id: 4002,
       img: 'https://m.media-amazon.com/images/M/MV5BNTViZTRkZmYtOTQyMS00YzliLTgwYjktNmQxMDFjYWIxNDlkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg',
       nombre: 'Deadly Night',
       desarrolladora: 'Torture Star Video',
@@ -37,7 +38,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 3,
+      id: 4003,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/5/5c/Ding_dong_dead_vhs.png/revision/latest?cb=20240722192422',
       nombre: 'Ding Dong Dead',
       desarrolladora: 'Torture Star Video',
@@ -51,7 +52,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 4,
+      id: 4004,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/9/9b/EvilInTheHouseOfDrFleshenstein.jpg/revision/latest/scale-to-width-down/1000?cb=20220822204530',
       nombre: 'Evil in the House of Dr. Fleshenstein',
       desarrolladora: 'Torture Star Video',
@@ -65,7 +66,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 6,
+      id: 4006,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xo0.jpg',
       nombre: 'Lakeview Cabin Collection',
       desarrolladora: 'Torture Star Video',
@@ -79,7 +80,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 7,
+      id: 4007,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/7/74/FcqbClAXwAAjchE.jpg/revision/latest/scale-to-width-down/268?cb=20220915023928',
       nombre: 'Night at the Gates of Hell',
       desarrolladora: 'Torture Star Video',
@@ -93,7 +94,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 8,
+      id: 4008,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co97es.webp',
       nombre: 'No One Lives Under the Lighthouse',
       desarrolladora: 'Torture Star Video',
@@ -107,7 +108,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 10,
+      id: 4010,
       img: '/assets/rewind.jpg',
       nombre: 'Rewind Or Die',
       desarrolladora: 'Torture Star Video',
@@ -121,7 +122,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 11,
+      id: 4011,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/1/1f/Search_partz_vhs.png/revision/latest?cb=20211123152301',
       nombre: 'SEARCH PARTY',
       desarrolladora: 'Torture Star Video',
@@ -135,7 +136,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 12,
+      id: 4012,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/c/c3/G3YkxxRW4AEi0dO.png/revision/latest?cb=20251016174117',
       nombre: 'Skinfreak',
       desarrolladora: 'Torture Star Video',
@@ -149,7 +150,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 13,
+      id: 4013,
       img: '/assets/sniper.jpg',
       nombre: 'Sniper Killer',
       desarrolladora: 'Torture Star Video',
@@ -163,7 +164,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 14,
+      id: 4014,
       img: 'https://m.media-amazon.com/images/M/MV5BZGIxODdjNDAtYjdkMC00NjhiLTkzMzctODYzODc3MzYwNjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
       nombre: 'check freak',
       desarrolladora: 'Torture Star Video',
@@ -177,7 +178,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 15,
+      id: 4015,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/7/71/Cheek_freak_2_poster.png/revision/latest/thumbnail/width/360/height/360?cb=20221013114143',
       nombre: 'The Booty Creek Cheek Freak II: The De-Cheekening',
       desarrolladora: 'Torture Star Video',
@@ -191,7 +192,7 @@ export class TortureStar {
       disponibilidad: false,
     },
     {
-      id: 16,
+      id: 4016,
       img: 'https://static.wikia.nocookie.net/puppetcombo/images/b/be/Ttasf_vhs.png/revision/latest?cb=20221027001707',
       nombre: 'These Trees Are Spectral Fingers',
       desarrolladora: 'Torture Star Video',
@@ -205,7 +206,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 17,
+      id: 4017,
       img: 'https://images.igdb.com/igdb/image/upload/t_1080p/co268w.jpg',
       nombre: 'Tonight It Follows',
       desarrolladora: 'Torture Star Video',
@@ -219,7 +220,7 @@ export class TortureStar {
       disponibilidad: true,
     },
     {
-      id: 18,
+      id: 4018,
       img: '/assets/salazar.jpg',
       nombre: 'The Horror Of Salazar House',
       desarrolladora: 'Torture Star Video',
@@ -233,4 +234,10 @@ export class TortureStar {
       disponibilidad: true,
     },
   ];
+  constructor(private carritoService: CarritoCompras) { }
+
+  agregarAlCarrito(producto: Producto): void {
+    this.carritoService.agregar(producto);
+    alert(`${producto.nombre} agregado al carrito`);
+  }
 }

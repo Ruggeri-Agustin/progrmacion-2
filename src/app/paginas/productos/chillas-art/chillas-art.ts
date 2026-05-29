@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../../models/producto';
+import { CarritoCompras } from '../../../servicios/carrito';
 
 @Component({
   selector: 'app-chillas-art',
@@ -10,7 +11,7 @@ import { Producto } from '../../../models/producto';
 export class ChillasArt {
   chilla: Producto[]=[
    {
-      id: 1,
+      id: 1000,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/coan3x.webp',
       nombre: 'UMIGARI',
       desarrolladora: 'Chilla\'s Art',
@@ -24,7 +25,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 2,
+      id: 1001,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co4h66.webp',
       nombre: 'The Closing Shift',
       desarrolladora: 'Chilla\'s Art',
@@ -38,7 +39,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 3,
+      id: 1002,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6zmp.webp',
       nombre: 'Parasocial',
       desarrolladora: 'Chilla\'s Art',
@@ -52,7 +53,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 4,
+      id: 1003,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co7y5z.webp',
       nombre: 'Shinkansen 0',
       desarrolladora: 'Chilla\'s Art',
@@ -66,7 +67,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 5,
+      id: 1004,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5gj0.webp',
       nombre: 'The Bathhouse',
       desarrolladora: 'Chilla\'s Art',
@@ -80,7 +81,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 6,
+      id: 1005,
        img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2hs6.webp',
       nombre: 'The Convenience Store',
       desarrolladora: 'Chilla\'s Art',
@@ -94,7 +95,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 7,
+      id: 1005,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6ogn.webp',
       nombre: 'Night Security',
       desarrolladora: 'Chilla\'s Art',
@@ -108,7 +109,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 8,
+      id: 1007,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co7b55.webp',
       nombre: 'The Kidnap',
       desarrolladora: 'Chilla\'s Art',
@@ -122,7 +123,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 9,
+      id: 1008,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5s46.webp',
       nombre: 'The Karaoke',
       desarrolladora: 'Chilla\'s Art',
@@ -136,7 +137,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 10,
+      id: 1009,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co60xj.webp',
       nombre: 'Aka Manto',
       desarrolladora: 'Chilla\'s Art',
@@ -150,7 +151,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 11,
+      id: 1011,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co4248.webp',
       nombre: 'Stigmatized Property',
       desarrolladora: 'Chilla\'s Art',
@@ -164,7 +165,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 12,
+      id: 1012,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2hrj.webp',
       nombre: 'Missing Children',
       desarrolladora: 'Chilla\'s Art',
@@ -178,7 +179,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 13,
+      id: 1013,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2tl5.webp',
       nombre: 'The Caregiver',
       desarrolladora: 'Chilla\'s Art',
@@ -192,7 +193,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 14,
+      id: 1014,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co38wf.webp',
       nombre: 'Night Delivery',
       desarrolladora: 'Chilla\'s Art',
@@ -206,7 +207,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 15,
+      id: 1015,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7jeg.jpg',
       nombre: 'Jisatsu',
       desarrolladora: 'Chilla\'s Art',
@@ -220,7 +221,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 16,
+      id: 1016,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6sa3.webp',
       nombre: 'The Radio Station',
       desarrolladora: 'Chilla\'s Art',
@@ -234,7 +235,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 17,
+      id: 1017,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2hs2.webp',
       nombre: 'Inukai Tunnel',
       desarrolladora: 'Chilla\'s Art',
@@ -248,7 +249,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 18,
+      id: 1018,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2dbi.webp',
       nombre: 'The Ghost Train',
       desarrolladora: 'Chilla\'s Art',
@@ -262,7 +263,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 19,
+      id: 1019,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2lpg.webp',
       nombre: 'Yuki Onna',
       desarrolladora: 'Chilla\'s Art',
@@ -276,7 +277,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 20,
+      id: 1020,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2sta.webp',
       nombre: 'Hanako',
       desarrolladora: 'Chilla\'s Art',
@@ -290,7 +291,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 21,
+      id: 1021,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2hs1.webp',
       nombre: 'Okaeri',
       desarrolladora: 'Chilla\'s Art',
@@ -304,7 +305,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 22,
+      id: 1022,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co3qmd.webp',
       nombre: 'Onryo',
       desarrolladora: 'Chilla\'s Art',
@@ -318,7 +319,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 23,
+      id: 1023,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co3r6t.webp',
       nombre: 'The Night Way Home',
       desarrolladora: 'Chilla\'s Art',
@@ -332,7 +333,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 24,
+      id: 1024,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co46w4.webp',
       nombre: 'Teke Teke',
       desarrolladora: 'Chilla\'s Art',
@@ -346,7 +347,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 25,
+      id: 1025,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co7jlc.webp',
       nombre: 'Blame Him',
       desarrolladora: 'Chilla\'s Art',
@@ -360,7 +361,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 26,
+      id: 1026,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6qab.webp',
       nombre: 'Evie',
       desarrolladora: 'Chilla\'s Art',
@@ -374,7 +375,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 27,
+      id: 1027,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co9rrl.webp',
       nombre: 'Welcome Back Daddy',
       desarrolladora: 'Chilla\'s Art',
@@ -388,7 +389,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 28,
+      id: 1028,
       img: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co98ys.webp',
       nombre: 'Cursed Digicam',
       desarrolladora: 'Chilla\'s Art',
@@ -402,7 +403,7 @@ export class ChillasArt {
       disponibilidad: true,
     },
     {
-      id: 29,
+      id: 1029,
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__Rs1Z0W-VRvBYBxrs9FCffPevu_p7KcM4A&s',
       nombre: 'Jimmu',
       desarrolladora: 'Chilla\'s Art',
@@ -415,5 +416,11 @@ export class ChillasArt {
       cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1220390/ss_41e08a65f42e25daa66aceb94464d96f2aedd273.1920x1080.jpg?t=1662351727',
       disponibilidad: false,
     },
-  ]
+  ];
+  constructor(private carritoService: CarritoCompras) { }
+
+  agregarAlCarrito(producto: Producto): void {
+    this.carritoService.agregar(producto);
+    alert(`${producto.nombre} agregado al carrito`);
+  }
 }

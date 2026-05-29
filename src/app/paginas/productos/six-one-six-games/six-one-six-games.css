@@ -1,0 +1,117 @@
+.card {
+    background-color: rgb(26, 26, 26);
+}
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.modal-header .btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.agregar,
+.favorito {
+    font-family: sangre;
+}
+
+.texto {
+    color: rgb(214, 214, 214);
+    font-family: sangre;
+}
+
+.btn {
+    background-color: rgb(139, 0, 0);
+    color: rgb(238, 76, 76);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: rgb(214, 214, 214);
+    font-family: pixel;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(214, 214, 214);
+    font-family: estatica;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(139, 0, 0)
+}
+.info {
+    font-family: sangre;
+}
+
+h1 {
+    font-family: sangre;
+    color: rgb(139, 0, 0);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+@font-face {
+    font-family: estatica;
+    src: url("../../inicio/Rubik_Glitch/RubikGlitch-Regular.ttf");
+}
+
+@font-face {
+    font-family: sangre;
+    src: url(../../inicio/Nosifer/Nosifer-Regular.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(../../../compartidos/footer/VT323/VT323-Regular.ttf);
+}
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+/* component.css */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: stretch; /* Estira todas las cards */
+}
+
+.card-wrapper {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-description {
+  flex: 1; /* Hace que la descripción ocupe espacio disponible */
+  margin: 12px 0;
+}
+
+.card-button {
+  margin-top: auto; /* Empuja el botón hacia abajo */
+  align-self: flex-start;
+}

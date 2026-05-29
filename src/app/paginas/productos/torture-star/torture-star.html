@@ -110,10 +110,8 @@
                     </div>
                     <div class="modal-footer">
                       <p>{{ t.desc }}</p>
-                      <button type="button" class="btn agregar">Agregar al Carrito</button>
-                      <button type="button" class="btn cerrar" data-bs-dismiss="modal">
-                        volver
-                      </button>
+                      <button type="button" class="btn agregar" (click)="agregarAlCarrito(t)">Agregar al Carrito</button>
+                      <button type="button" class="btn favorito">Agregar a Favoritos</button>
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../models/producto';
+import { CarritoCompras } from '../../servicios/carrito';
+
 @Component({
   selector: 'app-productos',
   imports: [],
@@ -140,7 +142,7 @@ export class Productos {
       id: 10,
       img: '/assets/sniper.jpg',
       nombre: 'Sniper Killer',
-      desarrolladora: 'Sniper Killer',
+      desarrolladora: 'Torture Star Video',
       link: '/tortureStar',
       precio: 6.59,
       desc: 'Elimina a tus víctimas como un asesino en serie apodado "El Francotirador". Aterroriza la ciudad con tu aguda vista y tu sed de sangre, mientras te mantienes un paso por delante de un detective empeñado en llevarte ante la justicia.',
@@ -185,7 +187,7 @@ export class Productos {
       nombre: 'I am a Serial Killer',
       desarrolladora: '616 Games',
       link: '/616-games',
-      precio: 0.99,
+      precio: 1,
       desc: 'Martin decidió unirse a una secta llamada "Los Iluminados", que busca dar vida a un ser misterioso para eliminar todo el mal del mundo. ¿Hasta dónde estás dispuesto a llegar para lograr tus metas?',
       cr1: 'https://img.itch.zone/aW1nLzEyNzcyODkyLnBuZw==/original/z2yhXR.png',
       cr2: 'https://img.itch.zone/aW1hZ2UvMjE1NDAxNS8xMjc2Mzk1OC5wbmc=/347x500/%2BqoXM7.png',
@@ -199,7 +201,7 @@ export class Productos {
       nombre: 'Poop Killer 4',
       desarrolladora: '616 Games',
       link: '/616-games',
-      precio: 0.99,
+      precio: 1,
       desc: 'Tras la muerte del "Asesino de las Cacas", la gente está más tranquila y puede volver a defecar en paz. Pero un fanático decide imitar a este terrible asesino... Billy es dueño de una "Sex Shop", una tienda dirigida a hombres homosexuales. Después de que un cliente defeca y obstruye el baño, la situación se vuelve tensa.',
       cr1: 'https://img.itch.zone/aW1nLzEyMjcyOTgzLnBuZw==/original/tR0ZKb.png',
       cr2: 'https://img.itch.zone/aW1nLzk2OTQyNTUuZ2lm/original/ssSFnh.gif',
@@ -235,58 +237,11 @@ export class Productos {
       cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1463420/ss_0121a4fbb305d1ab5d6efb9344ba96e87de53f6e.1920x1080.jpg?t=1635550118',
       disponibilidad: true,
     },
-    // Varios
-    {
-      id: 25,
-      img: '/assets/imscared.png',
-      nombre: 'IMSCARED',
-      desarrolladora: 'Ivan Zanotti\'s MyMadnessWorks',
-      precio: 2.49,
-      desc: '"Necesito un corazón para poder abrirlo"',
-      cr1: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/429720/header.jpg?t=1728130146',
-      cr2: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/429720/ss_503ac1a0ca95dcd4dd6b93bb427833ad72ba600a.1920x1080.jpg?t=1728130146',
-      cr3: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/429720/ss_437c2f83d4b4fde82ceccd83d220de6e777ca5c4.1920x1080.jpg?t=1728130146',
-      cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/429720/ss_cc92ac4e277381ed83d70c4663e1b5cb6c986115.1920x1080.jpg?t=1728130146',
-      disponibilidad: true,
-    },
-    {
-      id: 26,
-      img: '/assets/cry.jpg',
-      nombre: 'Cry of Fear',
-      desarrolladora: 'Team Psykskallar',
-      precio: 'Gratis',
-      desc: 'Cry of Fear es un juego de terror psicológico para un jugador y cooperativo ambientado en un pueblo desierto plagado de criaturas horribles y delirios de pesadilla. Juegas como un joven que busca desesperadamente respuestas en la fría noche escandinava, abriéndose camino por la ciudad mientras se sumerge lentamente en',
-      cr1: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/223710/header.jpg?t=1643567513',
-      cr2: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/223710/ss_7efc0d9d9daeca2a71bfaf4bf02ae15f2d838e08.1920x1080.jpg?t=1643567513',
-      cr3: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/223710/ss_ac194cf529c170a63dde2f1a35142a7fc94eb0ef.1920x1080.jpg?t=1643567513',
-      cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/223710/ss_956d8a050c312895ff1fd4e91c447aa546d065d3.1920x1080.jpg?t=1643567513',
-      disponibilidad: true,
-    },
-    {
-      id: 27,
-      img: '/assets/iron.jpg',
-      nombre: 'Iron Lung',
-      desarrolladora: 'David Szymanski',
-      precio: 4.49,
-      desc: 'Un breve juego de terror en el que pilotas un pequeño submarino a través de un océano de sangre en una luna alienígena.',
-      cr1: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/header.jpg?t=1770061280',
-      cr2: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/ss_e17953b908d595b7e9009f426442a5ce21b4130b.1920x1080.jpg?t=1770061280',
-      cr3: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/ss_8f6028d45627c23f4818e881860aec6ef029fbbf.1920x1080.jpg?t=1770061280',
-      cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/ss_1c62a35a9022be7973eacaa117f6c5b4a37d71d1.1920x1080.jpg?t=1770061280',
-      disponibilidad: true,
-    },
-    {
-      id: 28,
-      img: '/assets/scissors.jpg',
-      nombre: 'The Night of the Scissors',
-      desarrolladora: 'Tomás Esconjaureguyi',
-      precio: 1.99,
-      desc: 'Animado por su amigo, Adam decide ingresar a una oficina de correos abandonada a buscar basura para vender. Pronto descubrirá que un maniático con un par de tijeras y listo para matar esta rondando el lugar. ¿Logrará salir con vida?',
-      cr1: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1975180/header.jpg?t=1730323232',
-      cr2: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1975180/ss_6b91a9609e2fb71c421fb621f4b29dd2688d7cf7.1920x1080.jpg?t=1730323232',
-      cr3: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1975180/ss_e97692c93adcd53f71932203a7746d1b74d39212.1920x1080.jpg?t=1730323232',
-      cr4: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1975180/ss_812bf5648e774b96e5ae491c93608cbcaef0f07e.1920x1080.jpg?t=1730323232',
-      disponibilidad: true,
-    }
   ];
+  constructor(private carritoService: CarritoCompras) { }
+
+  agregarAlCarrito(producto: Producto): void {
+    this.carritoService.agregar(producto);
+    alert(`${producto.nombre} agregado al carrito`);
+  }
 }

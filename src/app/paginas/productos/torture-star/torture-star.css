@@ -1,21 +1,18 @@
 .card {
     background-color: rgb(26, 26, 26);
 }
-
 .modal-header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-
 .modal-header .btn-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
-
 .agregar,
-.cerrar {
+.favorito {
     font-family: sangre;
 }
 
@@ -52,7 +49,6 @@ h2 {
     background-color: rgb(20, 20, 20);
     border: 1px solid rgb(139, 0, 0)
 }
-
 .info {
     font-family: sangre;
 }
@@ -61,20 +57,6 @@ h1 {
     font-family: sangre;
     color: rgb(139, 0, 0);
 }
-
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 32%;
-    height: 200px;
-    /* Debe medir lo mismo que el ancho para que sea un círculo perfecto */
-    border-radius: 50%;
-    /* Hace que los bordes sean redondos */
-    object-fit: cover;
-    /* Evita que la imagen se deforme si no es cuadrada */
-}
-
 @font-face {
     font-family: estatica;
     src: url("../../inicio/Rubik_Glitch/RubikGlitch-Regular.ttf");
@@ -88,4 +70,52 @@ h1 {
 @font-face {
     font-family: pixel;
     src: url(../../../compartidos/footer/VT323/VT323-Regular.ttf);
+}
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+/* component.css */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: stretch; /* Estira todas las cards */
+}
+
+.card-wrapper {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-description {
+  flex: 1; /* Hace que la descripción ocupe espacio disponible */
+  margin: 12px 0;
+}
+
+.card-button {
+  margin-top: auto; /* Empuja el botón hacia abajo */
+  align-self: flex-start;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    height: 200px;
+    /* Debe medir lo mismo que el ancho para que sea un círculo perfecto */
+    border-radius: 50%;
+    /* Hace que los bordes sean redondos */
+    object-fit: cover;
+    /* Evita que la imagen se deforme si no es cuadrada */
 }
