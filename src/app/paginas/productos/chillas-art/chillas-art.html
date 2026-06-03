@@ -110,7 +110,135 @@
                     <div class="modal-footer">
                       <p>{{ c.desc }}</p>
                       <button type="button" class="btn agregar" (click)="agregarAlCarrito(c)">Agregar al Carrito</button>
-                      <button type="button" class="btn favorito">Agregar a Favoritos</button>
+                      <button type="button" class="btn favorito">Agregar a tu lista de deseados</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    }
+  </div>
+</div>
+
+
+
+<h2>En Desarrollo o Cancelados</h2>
+<div class="container">
+  <div class="row">
+    @for (c of chilla; track c.id) {
+      @if (c.disponibilidad == false) {
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+          <div class="card">
+            <img src="{{ c.img }}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title texto">{{ c.nombre }}</h5>
+              <p class="card-text texto"></p>
+              <a class="precio texto">{{ c.precio }}</a>
+              <br />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn info"
+                data-bs-toggle="modal"
+                [attr.data-bs-target]="'#modal' + c.id"
+              >
+                Info.
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                [id]="'modal' + c.id"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                [attr.aria-labelledby]="'staticBackdropLabel' + c.id"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header d-block">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h1 class="modal-title fs-5" [id]="'staticBackdropLabel' + c.id">
+                          {{ c.nombre }}
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <p class="mt-2">
+                        Desarrollado por:
+                        <a href="{{ c.link }}">{{ c.desarrolladora }}</a>
+                      </p>
+                    </div>
+                    <div class="modal-body">
+                      <div class="modal-body">
+                        <div [id]="'carousel' + c.id" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="{{ c.cr1 }}"
+                                class="d-block w-100"
+                                alt="..."
+                                height="254px"
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="{{ c.cr2 }}"
+                                class="d-block w-100"
+                                alt="..."
+                                height="254px"
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="{{ c.cr3 }}"
+                                class="d-block w-100"
+                                alt="..."
+                                height="254px"
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="{{ c.cr4 }}"
+                                class="d-block w-100"
+                                alt="..."
+                                height="254px"
+                              />
+                            </div>
+                          </div>
+                          <button
+                            class="carousel-control-prev"
+                            type="button"
+                            [attr.data-bs-target]="'#carousel' + c.id"
+                            data-bs-slide="prev"
+                          >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button
+                            class="carousel-control-next"
+                            type="button"
+                            [attr.data-bs-target]="'#carousel' + c.id"
+                            data-bs-slide="next"
+                          >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <p>{{ c.desc }}</p>
+                      <button type="button" class="btn cerrar" data-bs-dismiss="modal">
+                        cerrar
+                      </button>
                     </div>
                   </div>
                 </div>

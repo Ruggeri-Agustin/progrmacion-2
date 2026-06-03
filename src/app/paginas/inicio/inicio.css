@@ -1,53 +1,41 @@
-.card {
-    background-color: rgb(26, 26, 26);
-}
-
-.agregar,
-.cerrar {
-    font-family: sangre;
-}
-
-.texto {
-    color: rgb(214, 214, 214);
-    font-family: sangre;
-}
-
-.btn {
-    background-color: rgb(139, 0, 0);
-    color: rgb(238, 76, 76);
-}
-
-a {
-    text-decoration: none;
-}
-
 p {
-    color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
     font-family: pixel;
     font-size: 25px;
 }
-
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: estatica;
+}
 h2 {
     color: rgb(214, 214, 214);
     font-family: estatica;
     display: flex;
     justify-content: center;
 }
-
-.modal-header,
-.modal-body,
-.modal-footer {
-    background-color: rgb(20, 20, 20);
-    border: 1px solid rgb(139, 0, 0)
+a{
+    text-decoration: none;
 }
 
-.info {
-    font-family: sangre;
+.puppet{
+    color: red;
 }
-
-.modal-title {
-    font-family: sangre;
-    color: rgb(139, 0, 0);
+.chilla{
+    color: purple;
+}
+.torture{
+    color: yellow;
+}
+.games{
+    color: rgb(4, 4, 129);
+}
+.imagen{
+    object-fit: cover;
+}
+section{
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-splattered-blood-drops-halloween-blood-background-picture-image_1220406.jpg);
+    background-size: cover;
 }
 
 @font-face {
@@ -55,10 +43,6 @@ h2 {
     src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
 }
 
-@font-face {
-    font-family: sangre;
-    src: url(Nosifer/Nosifer-Regular.ttf);
-}
 
 @font-face {
     font-family: pixel;

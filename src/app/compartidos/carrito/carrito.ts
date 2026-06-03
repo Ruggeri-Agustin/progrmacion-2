@@ -11,19 +11,19 @@ import { Productos } from '../../paginas/productos/productos';
 export class Carrito implements OnInit {
   items: itemCarrito[] = [];
 
-  constructor(private carritoService: CarritoCompras) { }
+  constructor(private carritoService: CarritoCompras) {}
 
   ngOnInit(): void {
     this.items = this.carritoService.obtener();
   }
 
   subtotal(item: itemCarrito): number {
-  const precio = typeof item.precio === 'string' 
-    ? parseFloat(item.precio) 
-    : item.precio;
-  const total = precio * item.cantidad;
-  return parseFloat(total.toFixed(2));
-}
+    const precio = typeof item.precio === 'string' 
+      ? parseFloat(item.precio) 
+      : item.precio;
+    const total = precio * item.cantidad;
+    return parseFloat(total.toFixed(2));
+  }
 
   aumentar(id: number): void {
     this.carritoService.aumentarCantidad(id);
