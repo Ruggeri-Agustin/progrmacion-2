@@ -11,6 +11,9 @@
   top: 1rem;
   right: 1rem;
 }
+.desc{
+    background-color: rgb(20, 20, 20);
+}
 .agregar,
 .favorito {
     font-family: sangre;

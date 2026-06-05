@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Producto } from '../../../models/producto';
 import { CarritoCompras } from '../../../servicios/carrito';
+import { ListaDeseados } from '../../../servicios/favoritos';
+
 @Component({
   selector: 'app-puppet-combo',
   imports: [],
@@ -346,10 +348,15 @@ export class PuppetCombo {
       disponibilidad: true,
     },
   ]
-  constructor(private carritoService: CarritoCompras) { }
-  
-    agregarAlCarrito(producto: Producto): void {
-      this.carritoService.agregar(producto);
-      alert(`${producto.nombre} agregado al carrito`);
-    }
+  constructor(private carritoService: CarritoCompras, private listaDeseadosService: ListaDeseados) { }
+
+  agregarAlCarrito(producto: Producto): void {
+    this.carritoService.agregar(producto);
+    alert(`${producto.nombre} agregado al carrito`);
+  }
+
+  agregarAListaDeseados(producto: Producto): void {
+  this.listaDeseadosService.agregar(producto);
+  alert(`${producto.nombre} agregado a la lista de deseados`);
+}
 }

@@ -57,7 +57,9 @@ h1 {
     font-family: sangre;
     color: rgb(139, 0, 0);
 }
-
+.desc{
+    background-color: rgb(20, 20, 20);
+}
 .logo {
     display: block;
     margin-left: auto;

@@ -8,9 +8,10 @@ p {
     justify-content: center;
     font-family: estatica;
 }
-h2 {
-    color: rgb(214, 214, 214);
-    font-family: estatica;
+
+h3 {
+    color: grey;
+    font-family: pixel;
     display: flex;
     justify-content: center;
 }
@@ -22,7 +23,7 @@ a{
     color: red;
 }
 .chilla{
-    color: purple;
+    color: rgb(151, 3, 151);
 }
 .torture{
     color: yellow;
@@ -36,11 +37,6 @@ a{
 section{
     background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-splattered-blood-drops-halloween-blood-background-picture-image_1220406.jpg);
     background-size: cover;
-}
-
-@font-face {
-    font-family: estatica;
-    src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
 }
 
 

@@ -1,4 +1,4 @@
-
+<h2 class="titulo">Productos Populares</h2>
 <div class="container">
   <div class="row">
     @for (p of productos; track p.id) {
@@ -109,7 +109,7 @@
                     <div class="modal-footer">
                       <p>{{ p.desc }}</p>
                       <button type="button" class="btn agregar" (click)="agregarAlCarrito(p)">Agregar al Carrito</button>
-                      <button type="button" class="btn favorito">Agregar a tu lista de deseados</button>
+                      <button type="button" class="btn favorito" (click)="agregarAListaDeseados(p)">Agregar a tu lista de deseados</button>
                     </div>
                   </div>
                 </div>

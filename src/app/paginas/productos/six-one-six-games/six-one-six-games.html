@@ -1,4 +1,4 @@
-<img src="../../assets/616games.png" alt="" class="logo"> 
+<img src="../../assets/616games.png" alt="" class="logo" />
 <h2>Productos disponibles</h2>
 <div class="container">
   <div class="row">
@@ -110,8 +110,12 @@
                     </div>
                     <div class="modal-footer">
                       <p>{{ s.desc }}</p>
-                      <button type="button" class="btn agregar" (click)="agregarAlCarrito(s)">Agregar al Carrito</button>
-                      <button type="button" class="btn favorito">Agregar a tu lista de deseados</button>
+                      <button type="button" class="btn agregar" (click)="agregarAlCarrito(s)">
+                        Agregar al Carrito
+                      </button>
+                      <button type="button" class="btn favorito" (click)="agregarAListaDeseados(s)">
+                        Agregar a tu lista de deseados
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -124,3 +128,29 @@
   </div>
 </div>
 
+<div class="desc">
+  <div class="card-header">
+    <p>que es 616 Games?</p>
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p>
+          616 Games es una desarrolladora de videojuegos conocida por sus juegos de terror cortos y
+          humorísticos, que CaseOh ha jugado con frecuencia.
+          <br />
+          616 Games cuenta con numerosos juegos que incluyen humor escatológico, como los títulos
+          Poop Killer y Fart Killer. Además, en algunos de los juegos más recientes de 616, los
+          jugadores tienen la posibilidad de usar el baño y ducharse.
+          <br />
+          el streamer CaseOh es conocido por jugar muchos de los juegos de 616 en sus transmisiones
+          y los admira profundamente por ser uno de sus desarrolladores favoritos. CaseOh también
+          sigue a 616 Games en Twitter/X.
+          <br />
+          Actualmente, 616 Games está trabajando en una serie de juegos conocida como Tales Beyond
+          The Tomb, cuyo episodio más reciente se lanzó el 20 de diciembre de 2024.
+        </p>
+      </blockquote>
+    </figure>
+  </div>
+</div>

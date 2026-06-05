@@ -110,7 +110,7 @@
                     <div class="modal-footer">
                       <p>{{ c.desc }}</p>
                       <button type="button" class="btn agregar" (click)="agregarAlCarrito(c)">Agregar al Carrito</button>
-                      <button type="button" class="btn favorito">Agregar a tu lista de deseados</button>
+                      <button type="button" class="btn favorito" (click)="agregarAListaDeseados(c)">Agregar a tu lista de deseados</button>
                     </div>
                   </div>
                 </div>
@@ -248,5 +248,18 @@
         </div>
       }
     }
+  </div>
+</div>
+
+<div class="desc">
+  <div class="card-header">
+    <p>que es Chilla's Art?</p>
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Chilla's Art es una pequeña compañía indie japonesa fundada por dos hermanos. Desde septiembre de 2019, han creado juegos de terror que han gozado de gran popularidad entre jugadores, YouTubers y streamers. Con más de 30 juegos publicados, Chilla's Art se ha consolidado como una compañía de terror popular por sus efectos al estilo PS1/VHS, y cuenta con jugadores de todo el mundo.</p>
+      </blockquote>
+    </figure>
   </div>
 </div>

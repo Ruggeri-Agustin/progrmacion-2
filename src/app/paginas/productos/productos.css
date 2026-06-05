@@ -37,8 +37,8 @@ p {
 }
 
 h2 {
-    color: rgb(214, 214, 214);
-    font-family: estatica;
+    color: rgb(139, 0, 0);
+    font-family: sangre;
     display: flex;
     justify-content: center;
 }
@@ -57,7 +57,10 @@ h1 {
     font-family: sangre;
     color: rgb(139, 0, 0);
 }
-
+.titulo{
+display: flex;
+justify-content: center;
+}
 .logo {
     display: block;
     margin-left: auto;

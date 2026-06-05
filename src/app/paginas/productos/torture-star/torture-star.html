@@ -111,7 +111,7 @@
                     <div class="modal-footer">
                       <p>{{ t.desc }}</p>
                       <button type="button" class="btn agregar" (click)="agregarAlCarrito(t)">Agregar al Carrito</button>
-                      <button type="button" class="btn favorito">Agregar a tu lista de deseados</button>
+                      <button type="button" class="btn favorito" (click)="agregarAListaDeseados(t)">Agregar a tu lista de deseados</button>
                     </div>
                   </div>
                 </div>
@@ -121,5 +121,18 @@
         </div>
       }
     }
+  </div>
+</div>
+
+<div class="desc">
+  <div class="card-header">
+    <p>que es Torture Star Video?</p>
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Torture Star Video es un sello editorial de Puppet Combo. Fundado el 17 de junio de 2020, se centra en financiar y publicar juegos de terror independientes de otros desarrolladores.</p>
+      </blockquote>
+    </figure>
   </div>
 </div>

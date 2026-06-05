@@ -15,7 +15,9 @@
 .favorito {
     font-family: sangre;
 }
-
+.desc{
+    background-color: rgb(20, 20, 20);
+}
 .texto {
     color: rgb(214, 214, 214);
     font-family: sangre;
