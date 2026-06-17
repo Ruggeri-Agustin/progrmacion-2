@@ -10,7 +10,7 @@ p {
 }
 
 h3 {
-    color: grey;
+    color: rgb(167, 167, 167);
     font-family: pixel;
     display: flex;
     justify-content: center;
