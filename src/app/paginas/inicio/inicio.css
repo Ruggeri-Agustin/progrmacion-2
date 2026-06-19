@@ -9,7 +9,7 @@ p {
     font-family: estatica;
 }
 
-h3 {
+h3, h1{
     color: rgb(167, 167, 167);
     font-family: pixel;
     display: flex;

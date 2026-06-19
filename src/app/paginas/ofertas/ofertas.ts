@@ -42,7 +42,7 @@ export class Ofertas {
       {
         id: 3,
         img: 'https://static.vecteezy.com/system/resources/previews/020/336/039/non_2x/steam-logo-steam-icon-free-free-vector.jpg',
-        nombre: 'Chilla\'s Art Complete Pack (Steam)',
+        nombre: 'Chilla\'s Art Pack (Steam)',
         desarrolladora: 'Chilla\'s Art',
         link: '/chilla',
         precio: 108.57,

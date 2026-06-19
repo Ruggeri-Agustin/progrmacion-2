@@ -1,17 +1,21 @@
 /* CONTENEDOR */
 
-.carrito-container{
+.carrito-container {
     padding: 30px;
-    border: 2px solid rgb(139,0,0);
-    box-shadow: 0 0 15px rgba(139,0,0,0.5);
+    border: 2px solid rgb(139, 0, 0);
+    box-shadow: 0 0 15px rgba(139, 0, 0, 0.5);
     margin: 40px;
     background-image: url(https://i.pinimg.com/originals/91/20/cb/9120cbcbb9b8f14f5c5448fe3929469a.gif) !important;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
 }
 
 /* TITULO */
 
-.titulo-carrito{
+.titulo-carrito {
     color: rgb(231, 226, 226);
     font-family: "estatica";
     letter-spacing: 2px;
@@ -22,16 +26,16 @@
 
 /* TABLA */
 
-.tabla-carrito{
+.tabla-carrito {
     width: 100%;
     border-collapse: collapse;
-    color: rgb(214,214,214);
+    color: rgb(214, 214, 214);
 }
 
 /* ENCABEZADOS */
 
-.tabla-carrito th{
-    background-color: rgb(139,0,0);
+.tabla-carrito th {
+    background-color: rgb(139, 0, 0);
     padding: 15px;
     text-align: center;
     font-size: 18px;
@@ -39,44 +43,45 @@
 
 /* CELDAS */
 
-.tabla-carrito td{
-    background-color: rgb(26,26,26);
+.tabla-carrito td {
+    background-color: rgb(26, 26, 26);
     padding: 15px;
     text-align: center;
-    border-bottom: 1px solid rgb(50,50,50);
+    border-bottom: 1px solid rgb(50, 50, 50);
 }
 
 /* IMAGEN */
 
-.img-juego{
+.img-juego {
     width: 120px;
-    border: 2px solid rgb(139,0,0);
+    border: 2px solid rgb(139, 0, 0);
 }
 
 /* NOMBRE */
 
-.nombre-juego{
+.nombre-juego {
     font-size: 18px;
     letter-spacing: 1px;
 }
-.desarrollador{
+
+.desarrollador {
     font-size: 18px;
     letter-spacing: 1px;
 }
 
 /* CONTADOR */
 
-.cantidad-container{
+.cantidad-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
 }
 
 /* BOTONES */
 
-.btn-cantidad{
-    background-color: rgb(139,0,0);
+.btn-cantidad {
+    background-color: rgb(139, 0, 0);
     color: white;
     border: none;
     width: 35px;
@@ -86,8 +91,9 @@
     transition: 0.3s;
     border-radius: 10px;
 }
-.eliminar{
-    background-color: rgb(139,0,0);
+
+.eliminar {
+    background-color: rgb(139, 0, 0);
     color: white;
     border: none;
     cursor: pointer;
@@ -96,8 +102,8 @@
     border-radius: 10px;
 }
 
-.comprar{
-    background-color: rgb(139,0,0);
+.comprar {
+    background-color: rgb(139, 0, 0);
     color: white;
     border: none;
     cursor: pointer;
@@ -105,25 +111,31 @@
     transition: 0.3s;
     border-radius: 10px;
 }
-.botones{
+
+.botones {
     display: flex;
     justify-content: end;
     padding: 15px;
     gap: 10px;
 }
+
 /* HOVER */
 
-.btn-cantidad:hover, .eliminar:hover, .comprar:hover{
-    background-color: rgb(255,42,42);
-    box-shadow: 0 0 10px rgba(255,42,42,0.7);
+.btn-cantidad:hover,
+.eliminar:hover,
+.comprar:hover {
+    background-color: rgb(255, 42, 42);
+    box-shadow: 0 0 10px rgba(255, 42, 42, 0.7);
 }
+
 /* PRECIO */
 
-.precio{
-    color: rgb(57,255,20);
+.precio {
+    color: rgb(57, 255, 20);
     font-size: 18px;
     font-weight: bold;
 }
+
 @font-face {
     font-family: estatica;
     src: url(Rubik_Glitch/RubikGlitch-Regular.ttf);

@@ -7,6 +7,10 @@
     margin: 40px;
     background-image: url(https://i.pinimg.com/originals/91/20/cb/9120cbcbb9b8f14f5c5448fe3929469a.gif) !important;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
 }
 
 /* TITULO */
