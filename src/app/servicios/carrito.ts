@@ -36,7 +36,7 @@ export class CarritoCompras {
   }
 
   agregar(producto: Producto): void {
-    const encontrado = this.carrito.find(i => i.id === producto.id);
+    const encontrado = this.carrito.find((i) => i.id === producto.id);
     if (encontrado) {
       encontrado.cantidad++;
     } else {
@@ -50,12 +50,12 @@ export class CarritoCompras {
   }
 
   eliminar(id: number): void {
-    this.carrito = this.carrito.filter(i => i.id !== id);
+    this.carrito = this.carrito.filter((i) => i.id !== id);
     this.guardar();
   }
 
   aumentarCantidad(id: number): void {
-    const producto = this.carrito.find(i => i.id === id);
+    const producto = this.carrito.find((i) => i.id === id);
     if (producto) {
       producto.cantidad++;
       this.guardar();
@@ -63,7 +63,7 @@ export class CarritoCompras {
   }
 
   disminuirCantidad(id: number): void {
-    const producto = this.carrito.find(i => i.id === id);
+    const producto = this.carrito.find((i) => i.id === id);
     if (producto && producto.cantidad > 1) {
       producto.cantidad--;
       this.guardar();

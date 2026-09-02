@@ -1,46 +1,200 @@
+/* =========================
+   TEXTO GENERAL
+   ========================= */
+
 p {
     color: rgb(255, 255, 255);
     font-family: pixel;
     font-size: 25px;
 }
-.titulo{
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+.titulo {
     display: flex;
     justify-content: center;
     font-family: estatica;
 }
 
-h3, h1{
+h3, h1 {
     color: rgb(167, 167, 167);
     font-family: pixel;
     display: flex;
     justify-content: center;
 }
-a{
-    text-decoration: none;
+
+
+/* =========================
+   ADVERTENCIA
+   ========================= */
+
+.Advertencia {
+    background-color: rgba(0, 0, 0, 0.75);
+
+    border: 2px solid rgb(120, 0, 0);
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    text-align: center;
 }
 
-.puppet{
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+
+/* =========================
+   PUPPET COMBO
+   ========================= */
+
+.puppet {
     color: red;
+    display: inline-block;
 }
-.chilla{
+
+.puppet:hover {
+    color: rgb(255, 70, 70);
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(100, 0, 0);
+
+    animation: glitch 0.2s infinite;
+}
+
+
+/* =========================
+   CHILLA'S ART
+   ========================= */
+
+.chilla {
     color: rgb(151, 3, 151);
+    display: inline-block;
 }
-.torture{
+
+.chilla:hover {
+    color: rgb(220, 50, 220);
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(80, 0, 80);
+
+    animation: glitch 0.2s infinite;
+}
+
+
+/* =========================
+   TORTURE STAR VIDEO
+   ========================= */
+
+.torture {
     color: yellow;
+    display: inline-block;
 }
-.games{
-    color: rgb(4, 4, 129);
+
+.torture:hover {
+    color: rgb(255, 255, 150);
+
+    text-shadow:
+        2px 0px rgb(255, 0, 0),
+        -2px 0px rgb(150, 150, 0);
+
+    animation: glitch 0.2s infinite;
 }
-.imagen{
+
+
+/* =========================
+   616 GAMES
+   ========================= */
+
+.games {
+    color: rgb(17, 17, 170);
+    display: inline-block;
+}
+
+.games:hover {
+    color: rgb(50, 50, 220);
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(0, 0, 80);
+
+    animation: glitch 0.2s infinite;
+}
+
+
+/* =========================
+   EFECTO GLITCH
+   ========================= */
+
+@keyframes glitch {
+
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-2px, 1px);
+    }
+
+    50% {
+        transform: translate(2px, -1px);
+    }
+
+    75% {
+        transform: translate(-1px, -1px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+
+}
+
+
+/* =========================
+   IMAGEN
+   ========================= */
+
+.imagen {
     object-fit: cover;
 }
-section{
-    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-splattered-blood-drops-halloween-blood-background-picture-image_1220406.jpg);
+
+
+/* =========================
+   FONDO DE LA SECCIÓN
+   ========================= */
+
+section {
+    background-image:
+        linear-gradient(
+            rgba(20, 20, 20, 0.90),
+            rgba(20, 20, 20, 0.90)
+        ),
+        url(https://png.pngtree.com/background/20210714/original/pngtree-splattered-blood-drops-halloween-blood-background-picture-image_1220406.jpg);
+
     background-size: cover;
+    background-position: center;
 }
 
+
+/* =========================
+   FUENTE PIXEL
+   ========================= */
 
 @font-face {
     font-family: pixel;
     src: url(../../compartidos/footer/VT323/VT323-Regular.ttf);
 }
+

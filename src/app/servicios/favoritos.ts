@@ -5,7 +5,7 @@ import { Producto } from '../models/producto';
 @Injectable({
   providedIn: 'root',
 })
-export class ListaDeseados {  // ← Cambiado de "Favoritos" a "ListaDeseados"
+export class ListaDeseados { 
   private lista: Producto[] = [];
   private isBrowser: boolean;
 

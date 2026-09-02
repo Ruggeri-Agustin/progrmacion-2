@@ -1,36 +1,74 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary navegador">
   <div class="container-fluid">
-    <img src="assets/logo1.jpeg" alt="" width="140px" routerLink="/inicio"/>
-    <div class="collapse navbar-collapse" id="navbarNav">
+
+    <div class="logo" routerLink="/inicio">
+      <img src="assets/logo1.jpeg" alt="Corrupt Save" class="logo-normal">
+      <img src="assets/invertido.jpeg" alt="Corrupt Save" class="logo-invertido">
+    </div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
       <ul class="navbar-nav">
+
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/inicio">Inicio</a>
+          <a class="nav-link active" aria-current="page" routerLink="/inicio">
+            Inicio
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" routerLink="/productos">Productos</a>
+          <a class="nav-link" routerLink="/productos">
+            Productos
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" routerLink="/favoritos">Lista de Deseados</a>
+          <a class="nav-link" routerLink="/favoritos">
+            Lista de Deseados
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" routerLink="/ofertas">Ofertas</a>
+          <a class="nav-link" routerLink="/ofertas">
+            Ofertas
+          </a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link" routerLink="/carrito">Carrito de compras</a>
-        </li>
+
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contacto">Contacto</a>
+          <a class="nav-link" routerLink="/carrito">
+            Carrito de compras
+          </a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contacto">
+            Contacto
+          </a>
+        </li>
+
       </ul>
-      <ul></ul>
+
       <div class="ms-auto d-flex gap-2">
+
         <button type="button" class="btn sesion nav-link" routerLink="/inicioSesion">
           Iniciar Sesion
         </button>
+
         <button type="button" class="btn registro btn-outline-light" routerLink="/registro">
           Registrarse
         </button>
+
       </div>
+
     </div>
   </div>
 </nav>

@@ -1,6 +1,7 @@
 .card{
     margin: 0%;
     border-color: rgb(70,3,3);
+    border-radius: 0%
 }
 .card-body{
     background-color: rgb(70,3,3);

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ListaDeseados } from '../../servicios/favoritos';  // ← Cambiar import
+import { ListaDeseados } from '../../servicios/favoritos';
 import { CarritoCompras } from '../../servicios/carrito';
 import { Producto } from '../../models/producto';
 
@@ -13,7 +13,7 @@ export class Favoritos implements OnInit {
   favoritos: Producto[] = [];
 
   constructor(
-    private listaDeseadosService: ListaDeseados,  // ← Cambiar nombre
+    private listaDeseadosService: ListaDeseados,
     private carritoService: CarritoCompras
   ) {}
 

@@ -1,23 +1,157 @@
-.navegador{
-	background-color: rgb(70, 3, 3) !important;
+/* =========================
+   NAVBAR
+   ========================= */
+
+.navegador {
+    background-color: rgb(70, 3, 3) !important;
 }
-.nav-link{
-	font-family: fuentesita;
-	font-size: 16px;
-	
+
+
+/* =========================
+   ENLACES DEL NAVBAR - ESTILO BASE
+   ========================= */
+
+.nav-link {
+    font-family: fuentesita;
+    font-size: 16px;
+    color: rgb(214, 214, 214) !important;
+    transition: all 0.15s ease;
+    display: inline-block; /* Necesario para el efecto glitch */
 }
-.registro{
-	background-color: rgb(70, 3, 3);
-	color: rgb(214, 214, 214);
-	font-family: fuentesita;
+
+/* =========================
+   ENLACES DEL NAVBAR - EFECTO GLITCH
+   ========================= */
+
+.nav-link:hover {
+    color: rgb(255, 0, 0) !important;
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(100, 0, 0);
+
+    animation: glitch 0.2s infinite;
 }
-.sesion{
-color:rgb(214, 214, 214);
+
+
+/* =========================
+   INICIAR SESIÓN - ESTILO BASE
+   ========================= */
+
+.sesion {
+    color: rgb(214, 214, 214);
+    transition: all 0.15s ease;
+    display: inline-block; /* Necesario para el efecto glitch */
 }
-@font-face{
-	font-family: fuentesita;
-	src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
+
+/* =========================
+   INICIAR SESIÓN - EFECTO GLITCH
+   ========================= */
+
+.sesion:hover {
+    color: rgb(255, 0, 0) !important;
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(100, 0, 0);
+
+    animation: glitch 0.2s infinite;
 }
-a{
-	color: rgb(214, 214, 214) !important;
+
+
+/* =========================
+   REGISTRARSE - ESTILO BASE
+   ========================= */
+
+.registro {
+    background-color: rgb(70, 3, 3);
+    color: rgb(214, 214, 214);
+    font-family: fuentesita;
+    transition: all 0.15s ease;
+    display: inline-block; /* Necesario para el efecto glitch */
+}
+
+/* =========================
+   REGISTRARSE - EFECTO GLITCH
+   ========================= */
+
+.registro:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(20, 20, 20) !important;
+    border-color: rgb(255, 0, 0);
+
+    text-shadow:
+        2px 0px rgb(255, 255, 255),
+        -2px 0px rgb(100, 0, 0);
+
+    animation: glitch 0.2s infinite;
+}
+
+
+/* =========================
+   FUENTE
+   ========================= */
+
+@font-face {
+    font-family: fuentesita;
+    src: url("Rubik_Glitch/RubikGlitch-Regular.ttf");
+}
+
+a {
+    color: rgb(214, 214, 214) !important;
+}
+
+
+/* =========================
+   LOGO
+   ========================= */
+
+.logo {
+    position: relative;
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 140px;
+    display: block;
+}
+
+.logo-invertido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.logo:hover .logo-invertido {
+    opacity: 1;
+}
+
+.logo:hover .logo-normal {
+    opacity: 0;
+}
+
+/* =========================
+   EFECTO GLITCH - ANIMACIÓN
+   ========================= */
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(-2px, 1px);
+    }
+    50% {
+        transform: translate(2px, -1px);
+    }
+    75% {
+        transform: translate(-1px, -1px);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
